@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Бибилиотека книг</title>
+</head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<link rel="stylesheet" href="./styles.css">
+<title>Бибилиотека книг</title>
+
+<body>
+    <h1>Библиотека книг</h1>
+
+    <h3>Добавить книгу</h3>
+    <form id="bookForm">
+        <label for="title">Название:</label>
+        <input type="text" id="title" name="title" required><br><br>
+        <label for="author">Автор:</label>
+        <input type="text" id="author" name="author" required><br><br>
+        <label for="genre">Жанр:</label>
+        <input type="text" id="genre" name="genre" required><br><br>
+        <input type="submit" value="Добавить книгу">
+    </form>
+
+    <h2>Журнал книг:</h2>
+
+    <table id="bookList">
+
+    </table>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
