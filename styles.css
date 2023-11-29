@@ -1,0 +1,26 @@
+body {
+    background-color: #d18339e1;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: #d18339e1;
+}
+
+th,
+td {
+    padding: 8px;
+    text-align: left;
+    border-bottom: 1px solid #000000;
+}
+
+form {
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+}
+
+form input[type="submit"] {
+    padding: 8px 16px;
+}
